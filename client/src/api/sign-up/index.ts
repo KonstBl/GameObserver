@@ -1,6 +1,6 @@
-import axios from "axios"
+import axios from "axios";
 
-export const SignUpApi={
+export const SignUpApi = {
     signUp(data = {}) {
         return axios.post('http://localhost:3000/auth/sign-up', data)
     }

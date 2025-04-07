@@ -1,4 +1,3 @@
-import { AccessToken } from "@/utils/auth"
 import axiosIns from "../instance"
 
 export const UsersApi = {
